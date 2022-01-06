@@ -9,10 +9,10 @@ data = {
 
 df = pandas.DataFrame(data)
 
-st.title('Our First Streamlit App')
-st.subheader('Introducing Streamlit in Automate Everything with Python')
-st.write('''This is our first Web App.
-Enjoy it!
+st.title('This is a First Streamlit App Test')
+st.subheader('This pages uses Streamlit and GitHub to publish a Flash Web Appd')
+st.write('''The data being used is random.
+The slider widget is being applied to simulate a temperature tool!
 ''')
 st.write(df)
 st.line_chart(df)
