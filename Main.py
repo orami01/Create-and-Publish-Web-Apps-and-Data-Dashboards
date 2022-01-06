@@ -10,7 +10,7 @@ data = {
 df = pandas.DataFrame(data)
 
 st.title('This is a First Streamlit App Test')
-st.subheader('This pages uses Streamlit and GitHub to publish a Flash Web Appd')
+st.subheader('This pages uses Streamlit and GitHub to publish a Flash Web App')
 st.write('''The data being used is random.
 The slider widget is being applied to simulate a temperature tool!
 ''')
