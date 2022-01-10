@@ -1,10 +1,6 @@
 import streamlit as st 
 import pandas
-import urllib, json
-
-URL = 'http://10.76.16.118:5000/form54?reportkey=ARR2015054201503'
-response = urllib.request.urlopen(URL)
-df1 = json.loads(response.read())
+import json
 
 
 data = {
