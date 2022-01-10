@@ -1,11 +1,11 @@
 import streamlit as st 
 import pandas
-import json
+import urllib, json
 
 URL = 'http://10.76.16.118:5000/form54?reportkey=ARR2015054201503'
+response = urllib.request.urlopen(URL)
+df1 = json.loads(response.read())
 
-st.write(URL)
-st.write(json.dumps(URL))
 
 data = {
   'Series_1':[1, 3, 4, 5, 7],
