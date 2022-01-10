@@ -4,9 +4,9 @@ import json
 
 URL = 'http://10.76.16.118:5000/form54?reportkey=ARR2015054201503'
 
-df = pd.read_json(URL, typ='series')
+df1 = pd.read_json(URL, typ='series')
 with pd.option_context('display.max_rows', None, 'display.max_columns', None):  # more options can be specified also
-    print(df)
+    print(df1)
 
 data = {
   'Series_1':[1, 3, 4, 5, 7],
